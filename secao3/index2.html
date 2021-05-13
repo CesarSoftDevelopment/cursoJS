@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Seção 04 - Aula 02</title>
+    </head>
+
+    <body>
+        <h1>Seção 04 - Condicionais</h1>
+
+        <script>
+            var idade = 18;
+
+            if(idade >= 18){
+                console.log("Maior de idade");
+            }else{
+                console.log("Menor de idade");
+            }
+
+            if(idade >= 18){
+                console.log("Maior de idade");
+            }else if(idade > 14 && idade < 18){
+                console.log("Adolescente");
+            }else{
+                console.log("OK")
+            }
+
+            //se tipo de dado é o mesmo(=== verifica valor e tipo de dado)
+            if(1 === "1"){
+                console.log('Sim, 1 === "1"');
+
+            }else{
+                console.log("Não");
+
+            }
+
+            var sexo = 'm';
+
+            switch(sexo){
+                case 'm':
+                    console.log("Masculino");
+                    break;//break sai do switch, porque achamos o que queríamos
+                case 'f':
+                    console.log("Feminino");
+                    break;
+                default:
+                    console.log("Desconhecido");
+                    break;
+            }
+
+            
+
+            
+          
+
+        </script>
+    </body>
+</html>

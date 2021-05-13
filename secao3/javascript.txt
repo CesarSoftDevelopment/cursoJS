@@ -1,0 +1,72 @@
+==================================================================================================
+Node js -> ferramenta que permite executar o javascript fora do browser
+
+visual studio code - executar o javascrip por lá
+
+Yarn -> gerenciador de pacotes para o node, para utilizá-lo temos que ter o node instalado
+
+
+Seção 3 - Introdução ao Javascript e Preparação do Ambiente
+
+CTRL + ` (crasse) abrir o terminal no vs code
+
+
+1º Passo ir no site do js 
+
+1.1: baixar a versão lts
+
+1.2: descomptar o arquivo, renomear para node, recortar e colocar no diretório apps
+
+2º ir no arquivo .bashrc e abre ele
+
+2.1: pôr embaixo 
+
+# Node
+NODE_HOME=/home/cesardeveloper/apps/node
+
+PATH=$PATH:$NODE_HOME/bin
+
+export NODE_HOME
+export PATH
+
+2.2: CTRL + S Para salvar e fecha o arquivo
+
+2.3: testar no terminal node --version para ver se está funcionando
+
+
+3º Ir no site do yarn
+
+3.1: digitar no terminal: sudo apt install --no-install-recommends yarn
+
+3.2: testar o node(node --version) e o yarn(yarn --version)
+
+
+4º Ir no vs code, caso tenha intalar os plugins(ir onde baixa os plugins)
+
+4.1: baixar: Code Runner(install)
+*clicar em botão para o código ser executado
+
+4.2: baixar: Dracula Official
+*fundo escuro e fontes coloridas
+
+4.3: baixar: Material Icon Theme
+*deixa o icone das linguagens de programação
+
+4.4: testar!!!
+===============================================================================================
+
+===============================================================================================
+
+Seção 04: Javascrip Conceitos Básicos I
+
+1 - Inicio(variáveis)
+
+-> Para fazer uma variável no js temos que pôr o 'var'
+-> var só é necessário quando for para declarar, para mudar o valor não é necessário pôr o var
+
+-> js tem uma tipagem dinaminca
+->
+
+===============================================================================================
+
+
