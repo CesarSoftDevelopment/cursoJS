@@ -34,6 +34,12 @@ const outra = function(valor){
 console.log(outra(9));
 */
 
+// const somar = function(valor) {
+//     return valor * 2;
+// }
+
+// console.log(somar(2));
+
 /*
 function somar(v1, v2){
     return v1 + v2;
@@ -55,3 +61,42 @@ mostrar(3, 6, function(n1, n2){
 mostrar(3, 6, (v1, v2) => v1 * v2);
 */
 
+
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// function dobrar(value){
+//     return value * 2;
+// }
+// let res1 = numeros.map(dobrar);
+
+// console.log(numeros);
+// console.log(res1);
+
+// // funções anonimas
+
+// let res2 = numeros.map(function(value){
+//     return value * 2;
+// });
+
+// console.log(res2);
+
+
+function imprimir1(nome) {
+    return nome;
+}
+
+console.log(imprimir1('Lucas Santana'));
+
+let imprimir2 = function(nome){
+    return nome;
+}
+
+console.log(imprimir2('Cesar Developer'));
+
+/**
+Duas formas de utilizar a função lambda
+Passar direto para uma função como o map que recebe uma função como parametro ou
+Dar um nome para esta função e executar da forma que você quiser
+
+ */

@@ -1,0 +1,24 @@
+Programação Assicrona
+    - é uma parte avançada do javacript, não tenha que esperar que um evento
+    - não fica com a página carregando...
+
+    O FileZilla é um aplicativo de código aberto,
+     para Windows, Mac e Linux, recomendado para quem está começando
+      a mexer com internet agora e precisa enviar arquivos para algum 
+      servidor através do protocolo FTP (File Transfer Protocol).
+
+Promises -> são funções javascript que não influenciam a aplicação
+são promessas que quando finalizadas os dados são apresentados
+
+Axios é a biblioteca mais utilizada atualmente(web, mobile);
+
+Angular JS
+React
+Angular 
+React Native
+
+Três formas de fazer Programação Assicrona. Atualmente Axios é a Programação usada(quanto)
+em desenvolvimento web e mobile.
+
+
+

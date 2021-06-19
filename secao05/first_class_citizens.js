@@ -24,9 +24,16 @@
  * 
  */
 
-function sum(num1, num2){
-    return num1 + num2;
-}
+// function sum(num1, num2){
+//     return num1 + num2;
+// }
+
+// function raizQuadrada(n1) {
+//     return n1 * n1;
+// }
+
+// console.log(raizQuadrada(2));
+
 
 // 1º execute
 /*
@@ -47,36 +54,35 @@ console.log(execute(8, 7));
 //example 2
 
 
-function subtrair(num1, num2){
-    return num1 - num2;
-}
+// function subtrair(num1, num2){
+//     return num1 - num2;
+// }
 
-/*
+// /*
 
-function do_something(num1, num2, our_function){//função executada aqui dentro!
-    return our_function(num1, num2)
-}
+// function do_something(num1, num2, our_function){//função executada aqui dentro!
+//     return our_function(num1, num2)
+// }
 
-console.log(do_something(5, 5, sum));
-console.log(do_something(8, 3, subtrair));
-*/
+// console.log(do_something(5, 5, sum));
+// console.log(do_something(8, 3, subtrair));
 
-//exemplo 3
+// //exemplo 3
 
-function other(our_function){
-    return our_function;
-}
+// function other(our_function){
+//     return our_function;
+// }
 
-const ret = other(subtrair);
-//console.log(ret(8, 2));
+// const ret = other(subtrair);
+// //console.log(ret(8, 2));
 
-/* 
+// /* 
 
-Cidadão de primeira classe
-First-Class Citizens
-Higher-Order Function
+// Cidadão de primeira classe
+// First-Class Citizens
+// Higher-Order Function
 
-*/
+// */
 
 
 // exemplo 4(the easiest function)
@@ -92,15 +98,21 @@ console.log(retur);
 
 // exemplo 05(typeof) -> verifica o tipo de dado que está sendo passado pra ele
 
-let valores = [1, 3.4, true, sum];
+// let valores = [1, 3.4, true, sum];
 
-for(let i = 0; i < valores.length; i++){
-    console.log(typeof(valores[i]));
-}
-
-
+// for(let i = 0; i < valores.length; i++){
+//     console.log(typeof(valores[i]));
+// }
 
 
+// function sum(n1, n2){
+//     return n1 + n2;
+// }
+
+// let ret = sum(2, 2);
+// console.log(ret + 3);
+
+// sum();
 
 
 

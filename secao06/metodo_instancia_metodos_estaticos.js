@@ -5,7 +5,7 @@
  class Carro{
 
     constructor(modelo){
-        this._marca = 'Honda'
+        this._marca = Carro.retornar_marca();
         this._modelo = modelo;
     }
 
@@ -24,10 +24,20 @@
     imprimir_dados(){
         console.log(`${this.marca} ${this.modelo}`)
     }
+
+    static retornar_marca(){
+        return 'Honda';
+    }
 }
 
 //espera o modelo como parametro (FIT)
-const fit = new Carro("Fit")
+//const fit = new Carro("Fit")
 
-fit.imprimir_dados();
+// fit.imprimir_dados();
+
+// console.log(fit.marca);
+
+console.log(Carro.retornar_marca());
+
+
 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos inline</title>
+</head>
+<body onclick="mudarCor()">
+    <button onclick="mostrarAlerta();">Por favor, clique-me</button>
+    <br/><br/>
+    <span class="info" onmouseover="mudarTexto(this)"><b>Atenção!</b>Não clique no botão acima!</b></span>
+    <br/><br/>
+    <span onmouseover="mudarTexto2(this)">Outro Texto</span>
+    <br/><br/>
+    <input onkeyup="escreverTexto(this)">
+
+    <br/><br/>
+    <span id="texto">Olá</span>
+    <script src="js/aula03.js"></script>
+
+
+
+</body>
+</html>
+
+<!--
+    Evento: É algo que acontece, no caso de um navegador, de uma aplicação web
+    Click do botão
+    Click em qualquer elemento html
+    Click do ponteiro do navegador
+    Podemos usar a linguagem javascript para interagir com estes eventos
+
+    Evento inline dentro da própria página
+    inline configurando dentro da aplicação web
+    <button onclick="mostrarAlerta();">Por favor, clique-me</button>
+    
+-->

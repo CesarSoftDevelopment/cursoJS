@@ -45,17 +45,17 @@ console.log(somar(10, 10));
 
 // Arrow Function
 
-let somar_numeros = (num1, num2) => {
-    return num1 + num2;
-}
+// let somar_numeros = (num1, num2) => {
+//     return num1 + num2;
+// }
 
-console.log(somar_numeros(1, 32))
+// console.log(somar_numeros(1, 32))
 
-let imprimir_nomes = (nome1, nome2) => {
-    return `${nome1} - ${nome2}`;
-}
+// let imprimir_nomes = (nome1, nome2) => {
+//     return `${nome1} - ${nome2}`;
+// }
 
-console.log(imprimir_nomes('Cesar', 'Developer'));
+// console.log(imprimir_nomes('Cesar', 'Developer'));
 
 
 
@@ -83,3 +83,20 @@ let somar = numero => numero * 3;
 
 console.log(somar(2));
 */
+
+// function diminuir(num1, num2){
+//     return num1 - num2;
+// }
+// console.log(diminuir(2, 2));
+
+// let diminuir2 = function(num1, num2){
+//     return num1 - num2;
+// }
+// console.log(diminuir2(3, 3));
+
+// Arrow Function
+let somar4 = (num1, num2) => {
+    return num1 + num2;
+}
+
+let dobrar = valor => valor * 2;

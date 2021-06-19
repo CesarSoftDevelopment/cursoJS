@@ -47,3 +47,18 @@ existe uma linguagem de Programação clojure
 */
 
 
+let funcionarios_homens = ['Matheus', 'Jorge', 'Gabriel', 'Lucas'];
+let funcionarios_mulheres = ['Maria'];
+
+function nomear(nome){
+    if(nome == funcionarios_mulheres){
+    return nome + ' Mulher'; 
+    }
+}
+
+ 
+funcionarios = [];
+
+sexo = funcionarios_mulheres.map(nomear);
+console.log(sexo);
+
