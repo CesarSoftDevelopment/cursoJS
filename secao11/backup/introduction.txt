@@ -1,0 +1,101 @@
+ES -> eqma script nome oficial da linguagem javascript
+6+ a ultima atualização do javascript
+
+* Package Json -> fica na raiz do projeto e ele vai guardar configurações do projeto
+O arquivo package.json, armazena dependências do projeto. Nós utilizaremos o BABEL para transformar
+os códigos javascript seja 100% para os navegadores...
+
+* Nós só utilizaremos este BABEL no desenvolvimento
+
+* Quando instalamos o BABEL, vai aparecer as dependências -> node_modules
+-> yarn.lock
+
+* Javascript pode ser executado no navegador, ambiente nodejs, pode ser executado em dispositivos
+móveis e cada desses ambientes o funcionamento do javascript é um pouco diferente.
+
+* babel/present-env vai preparar o javascript independente do ambiente que for desenvolvido, ele vai
+executar corretamente
+
+* não mexemos com o node_modules, não devemos nos preocupar
+
+* adicionamos os módulos como bibliotecas de desenvolvido => utilizamos a -D para fazer esta configuração
+devDependencies
+
+* arquivo .gitigore é um arquivo que não tem extensão
+
+* o .gitigore faz com que alguns arquivos não possam sejam enviados
+* não faz sentido fazer deploy da aplicação com o node_modules, por isso que não enviamos e colocamos
+dentro do arquivo .gitignore
+
+* com o package.json -> conseguimos instalar as dependências tudo novamente
+
+* podemos dentro do package.json pôr scripts de execução, neste exemplo aqui criamos um script
+chamado dev, quando a gente executar na linha de comando no terminal yarn -> dev será executado
+o código -> babel ./main.js -o ./bundle.js"
+
+* isso faz com que no terminal não precisamos escrever este código inteiro para executar, passaremos
+apenas -> yarn dev no terminal para executar o comando
+
+
+NÃO É AUTOMATICO
+  "scripts":{
+    "dev": "babel ./main.js -o ./bundle.js"
+  }
+
+É AUTOMATICO
+  "scripts":{
+    "dev": "babel ./main.js -o ./bundle.js"
+  }
+}
+
+
+WEBPACK SERVER
+webpack server é um servidor de desenvolvimento que permite que utilizemos recursos interesantes
+monitoramento de arquivos, recarrega a página automaticamente, modificação no arquivo
+permite trabalhar com modulação dos nossos arquivos...
+webpack junta todos os conteudo do javascript do nosso projeto e adiciona dentro do arquivo bundle
+assim como o babel faz
+
+instalar -> ir no terminal e digitar este comando
+yarn add webpack webpack-cli -D
+
+configuração do webpack
+
+module.exports = {
+    entry: './main.js',
+    output: {
+        path: __dirname,
+        filename: './bundle.js',
+
+    },
+    module: {
+        rules: [
+            {
+                test:/\.js$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+
+                }
+            }
+        ],
+    }
+};
+
+* entre as possibilidades que o webpack nos da, modularizar a aplicação
+importar, exportar, classes funções
+
+* export -> para utilizar em outro arquivo
+
+* import -> para fazer uso de determinado recurso que está em determinado arquivo
+
+* melhor trabalho em equipe através de modularização
+
+* colocamos que queremos importar dentro das chaves
+
+* export default não precisamos pôr em chaves
+
+Organizando o código e WEBPACK DEV SERVER
+
+./ -> significa NA RAIZ DO PRJETO(./)
+
